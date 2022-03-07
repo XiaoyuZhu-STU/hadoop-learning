@@ -28,7 +28,4 @@
 ## 磁盘均衡器 Disk Balancer (datanode 内部磁盘不均衡)
 #### volume data density计算：1、ideal storage = total used/total capacity； 2、 volume data density = ideal storage - dfs used ratio;
 #### volume Data Density的正值表示磁盘未充分利用，而负值表示磁盘相对于当前理想存储目标的利用率过高
-#### 计算
-$$
-\text{Node Data Density}= \sum |\text{volume data density}| 
-$$
+#### 计算 $$\text{Node Data Density}= \sum |\text{volume data density}| $$
