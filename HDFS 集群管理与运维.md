@@ -30,5 +30,5 @@
 #### volume Data Density的正值表示磁盘未充分利用，而负值表示磁盘相对于当前理想存储目标的利用率过高
 #### 
 $$
-\test{Node Data Density}= \sum |\text{volume data density}| 
+\testbf{Node Data Density}= \sum |\textbf{volume data density}| 
 $$
